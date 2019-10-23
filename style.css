@@ -43,17 +43,45 @@
   } 
 
 
-/* .container{
-    max-width: 10000px;
+.container{
+    width: 80%;
     margin: 0 auto;
-    background-color: #242f3f;
-    font-size: 24px;
-    padding: 50px;  */
-/* } */
+     }
 
 body{
     background-color: #242f3f;
+    font-family: 'Press Start 2P', cursive;
 }
+
+header {
+    background-color: #78a898;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+}
+
+nav li {
+display: inline-block;
+margin-left: 40px;
+}
+
 
 
 h1, h3, h5{
